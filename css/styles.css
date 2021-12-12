@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.outer-block {
+  margin: 0 auto;
+  width: 900px;
+  height: 600px;
+  border: 5px solid red;
+}
+
+.inner-block {
+  padding: 20px;
+  border: 5px solid blue;
+  width: 120px;
+  height: 100px;
+  /* margin: 10px; */
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-child1 {
+  /* align-self: flex-end; */
+}
+
+.flex-child2 {
+  /* align-self: center; */
+}
+
+.flex-child4 {
+  /* margin-top: auto; */
+}
