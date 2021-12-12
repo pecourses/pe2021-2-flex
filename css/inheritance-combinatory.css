@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: brown;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  /* color: brown; */
+}
+
+span {
+  color: initial;
+}
+/* Комбинаторы
+> дочернего элемента
+  потомков
+  
++ следующего соседнего эл-та 
+~ следующих элементов 
+*/
+
+.article2 > p {
+  padding: 20px;
+}
+
+/* зеленый цвет текста для span в article1 .article1 >  */
+.article1 > span {
+  color: green;
+}
+.article2 p {
+  border: 2px solid red;
+}
+
+h1 + p {
+  font-style: italic;
+}
+
+p {
+  font-style: normal;
+}
+
+p,
+span {
+}
