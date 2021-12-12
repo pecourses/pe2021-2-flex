@@ -1,0 +1,31 @@
+body {
+  color: #926239;
+}
+
+.main-header {
+  background-image: url('http://traversymedia.com/downloads/assets/beachshowcase.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+.flex-section {
+  display: flex;
+}
+
+.flex-section > div {
+  width: 33.33%;
+}
